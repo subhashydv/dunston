@@ -1,0 +1,121 @@
+ * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 20px;
+  color: white;
+  background-color: #124559;
+}
+
+.dunston {
+    border: 1px solid #5D8898;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #5D8898;
+    color: hsl(197deg 76% 90%);
+}
+
+header > div {
+    padding: 0.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1em;
+}
+
+header ul {
+    display: flex;
+    column-gap: 2em;
+}
+
+li {
+    list-style: none;
+}
+
+.developer-interface {
+    width: 50%;
+    height: 440px;
+    border-right: 1px solid #5D8898;
+}
+
+.code-container {
+    height: 350px;
+    display: flex;
+}
+
+.line-number {
+    padding: 0.4em;
+    border-right: 1px solid #5D8898;
+    background-color: #466672 ;
+    color: #B3C9D0 ;
+}
+
+.editor {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0.4em;
+    color: #CEE3A0;
+}
+
+.developer-interface > nav {
+    border-top: 1px solid #5D8898;
+    padding: 0.4em 0;
+    
+}
+
+.developer-interface ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.developer-interface li {
+    width: 32.5%;
+    text-align: center;
+    padding: 0.2em 0;
+    background-color: #466672 ;
+}
+
+.message {
+    width: 98.6%;
+    margin: 0 auto;
+    background-color: #0B9CD5;
+}
+
+.message p {
+    font-family: monospace;
+    padding: 0.3em 0 0.3em 0.5em;
+}
+
+.trace-table {
+    height: 445px;
+    padding-top: 2px;
+    display: flex;
+    background-color: #466672 ;
+}
+
+.result {
+    width: 94%;
+}
+
+.stack {
+    width: 6%;
+    padding: 0 0.3em;
+    background-color: #124559;
+}
+
+.result table,
+.stack table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.result th,
+.stack th {
+    border: 1px solid black;
+    font-size: 1.3em;
+    padding: 0.1em;
+}
